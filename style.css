@@ -299,6 +299,12 @@ z-index:51;
   background: #fff;
   padding: 10px;
   margin-left: 15px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.card1:hover {
+  box-shadow: 0px 0px 20px #2f80ed;
+  max-width: 480px;
+  height: 550px;
 }
 .card1 > div:first-child > img {
   margin: -60px 0px 0px 20px;
@@ -395,11 +401,18 @@ z-index:51;
   max-width: 498px;
   height: 563px;
   border-radius: 9px;
-  border: 2px solid #2f80ed;
+  border: 1px solid #E2E2E2;
   background: #fff;
   padding: 30px 10px 10px 10px;
   margin-left: 15px;
+  box-shadow: 0px 0px 20px #2f80ed;
+  transition: box-shadow 1s, transform 1s;
+} 
+
+.card2:hover {
+  box-shadow: 0px 0px 40px #2f80ed;
 }
+
 .card2 > h1 {
   color: #2b2f34;
   font-family: 'ABeeZee', sans-serif;
